@@ -1,0 +1,151 @@
+body{
+    background: #ccc;
+    
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Header ===============================================*/
+
+.hero {
+    background-image: url(/imagens/bg-1.jpg);
+    background-position: right center; /* serve para centralizar a imagem */
+    background-size: cover; /* serve para deixar a imagem com visual completo */
+    
+    height: 600px;    
+    
+}
+
+/* Titulo ===============================================*/
+
+#cwf {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+    
+    font-size: 25px;
+    margin: 100px 10px 10px 10px;
+    
+}
+
+#cwf p {
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    
+    padding: 9px;
+    margin: auto;
+    
+    text-align: center;
+    text-transform: none;
+    
+    border-bottom: 3px solid #808080;
+    
+    display: inline-block;
+    
+}
+
+/* Menu * lista * ===============================================*/
+ul {
+    margin: 0;
+    margin-left: -14px;    
+    
+}
+
+.menu li {
+    background: rgba(0,0,0,0.7);
+    display: inline-block;
+    list-style: none;
+    
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    padding: 7px;
+    
+    margin: 3px;
+    margin-top: 10px;
+}
+
+.menu a {    
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    
+    letter-spacing: 1px;
+    
+}
+
+.menu li:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+/* Cards ===============================================*/
+.card1, .card2, .card3 {
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+    margin-left: 1%; 
+}
+
+.card1 img, .card2 img, .card3 img {
+   width: 100%;
+   display: block;
+   border-radius: 0.30rem 0.30rem 0 0;
+}
+
+.card1 p, .card2 p, .card3 p {
+    color: white;
+    background-color: rgba(0,0,0,.8);
+    
+    margin: 0;
+    padding: 10px;
+    border-radius: 0 0 0.30rem 0.30rem;
+    
+}
+   
+   
+/* Titulo de baixo ===============================================*/
+
+main {    
+    width: 80%;
+    
+    margin: auto;    
+    overflow: auto;   
+    
+}
+
+.cards-content, .titulo-content {
+    background-color: white;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 0.25rem;
+    clear: both;
+    overflow: auto;
+}
+
+
+
+h2 {
+    background: #ccc;
+    
+    border-bottom: 3px solid #808080;
+    border-radius: 0.25rem;
+    
+    padding: 7px;
+}
+
+/* Footer ======================================*/
+
+footer {
+    color: white;
+    background: #808080;
+    
+    margin-top: 15px;
+    padding: 30px;
+    
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
